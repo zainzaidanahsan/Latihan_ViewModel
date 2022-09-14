@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IsiBerita">
+    <androidx.appcompat.widget.Toolbar
+        app:titleTextColor="@color/white"
+        android:id="@+id/toolbarIsiBerita"
+        android:background="@color/blue"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"/>
+
+    <ImageView
+        android:id="@+id/imgIsi"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/toolbarIsiBerita"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/black"
+        android:id="@+id/judulIsiBerita"
+        android:text="Judul"
+        android:textSize="30sp"
+        android:layout_marginStart="30dp"
+        android:layout_below="@+id/imgIsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

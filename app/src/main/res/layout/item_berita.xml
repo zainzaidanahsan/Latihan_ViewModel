@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardViewBerita"
+    android:layout_marginStart="14dp"
+    android:layout_marginTop="14dp"
+    android:layout_marginEnd="14dp"
+    android:layout_marginBottom="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="8dp"
+    app:cardCornerRadius="8dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imgBerita"
+            android:layout_marginStart="5dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+        <TextView
+            android:textSize="15sp"
+            android:id="@+id/txtJudulBerita"
+            android:textColor="@color/black"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Judul Berita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:paddingEnd="5dp"
+            android:layout_marginTop="85dp"
+            android:src="@drawable/ic_baseline_thumb_up_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_marginTop="85dp"
+            android:src="@drawable/ic_baseline_thumb_down_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:paddingStart="5dp"
+            android:layout_marginTop="85dp"
+            android:src="@drawable/ic_baseline_share_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="110dp"
+        android:textSize="9sp"
+        android:id="@+id/sumberBerita"
+        android:text="source berita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="110dp"
+        android:textSize="9sp"
+        android:text="5 Jam yang lalu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+</androidx.cardview.widget.CardView>
